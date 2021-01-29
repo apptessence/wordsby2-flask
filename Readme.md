@@ -14,8 +14,8 @@ This is the repository for the WordsBy2 Game Flask Server. All code and other wo
 
 ## Description
 
-WordsBy2 is a tile-based crossword game. It was developed by Dan Donaldson in 2011 as a physical game and play-tested, under the name "wordloops".
+WordsBy2 is a tile-based word-spelling game. It was developed by Dan Donaldson in 2011 as a physical game and play-tested, under the name "wordloops".
 
-The WordsBy2 iOS game will use the APIs in this project to allow remote play, tournament play and so on.
+The already-developed WordsBy2 iOS game will use the APIs in this project to allow remote play, tournament play and so on.
 
 
