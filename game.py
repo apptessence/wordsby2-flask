@@ -22,7 +22,7 @@ import os
 #     print("no log file")
 
 import logging
-logging.basicConfig(filename='wordloops.log', level=logging.DEBUG)
+logging.basicConfig( level=logging.DEBUG)
 
 import random
 
