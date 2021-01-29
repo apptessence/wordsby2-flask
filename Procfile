@@ -1,1 +1,1 @@
-web: gunicorn app:app -b "$HOST:$PORT" -w 3
+web: gunicorn wsgi:app
