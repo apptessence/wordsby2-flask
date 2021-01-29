@@ -10,18 +10,18 @@ import logging
 
 class Board :
     
-    import colored
-    from colored import stylize
+    # import colored
+    # from colored import stylize
     tiles = []
     places = []
     # board_rows = 1
     board_cols = 11
 
-    std_bg = colored.bg(244)
+    # std_bg = colored.bg(244)
     # alt_bg = colored.bg(104)
-    alt_bg = colored.bg(1)
-    p1_fg = colored.fg(0)
-    p0_fg = colored.fg(15)
+    # alt_bg = colored.bg(1)
+    # p1_fg = colored.fg(0)
+    # p0_fg = colored.fg(15)
     
     def __init__ (self, game) :
         self.places = [] * self.board_cols
@@ -30,8 +30,8 @@ class Board :
         self.game = game
 
     def tile_style(self, tile) :
-        import colored
-        from colored import stylize
+        # import colored
+        # from colored import stylize
 
         tile_bg = [self.alt_bg,self.std_bg][self.game.players['players'].index(tile.player) == tile.player_face]
         tile_fg = [self.p0_fg, self.p1_fg][self.game.players['players'].index(tile.player)]
