@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/test/', methods=['GET'])
 
-def main():
+def index():
     return "hello world"
     # game = Game()
     # print(game.bleep())
