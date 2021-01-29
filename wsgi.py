@@ -1,6 +1,6 @@
 from flask import Flask
 
-from app.main import main
+from app.index import main
 app = Flask(__name__)
 
 if __name__ == "__main__":
