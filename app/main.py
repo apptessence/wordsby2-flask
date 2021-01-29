@@ -1,9 +1,9 @@
 from game import Game
 from flask import Flask
-# from gunicorn import Gunicorn
+
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/test')
 def main():
     game = Game()
     print(game.bleep())
