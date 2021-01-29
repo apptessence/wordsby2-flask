@@ -1,4 +1,4 @@
-from game import Game
+from ../game import Game
 from flask import Flask
 from gunicorn import Gunicorn
 app = Flask(__name__)
