@@ -1,0 +1,6 @@
+.DS*
+__pycache__/
+*.log
+words.db
+words.txt
+read_file.py
