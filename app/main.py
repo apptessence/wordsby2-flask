@@ -1,6 +1,6 @@
 from game import Game
 from flask import Flask
-from gunicorn import Gunicorn
+# from gunicorn import Gunicorn
 app = Flask(__name__)
 
 @app.route('/')
