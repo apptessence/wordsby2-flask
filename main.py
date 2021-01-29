@@ -8,6 +8,3 @@ def main():
     game = Game()
     print(game.bleep())
     return dict(plant=game.bleep())
-
-# if __name__ == '__main__' :
-#     app.run(debug=True)
