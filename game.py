@@ -16,10 +16,10 @@ from pickbox import Pickbox
 from player import Player
 
 import os
-try :
-    os.remove("wordloops.log")
-except :
-    print("no log file")
+# try :
+#     os.remove("wordloops.log")
+# except :
+#     print("no log file")
 
 import logging
 logging.basicConfig(filename='wordloops.log', level=logging.DEBUG)
